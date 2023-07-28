@@ -1,0 +1,17 @@
+.title-xl {
+  color: var(--black);
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px; /* 128% */
+}
+
+.title-l {
+  color: var(--black);
+  font-family: Inter;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 126.316% */
+}

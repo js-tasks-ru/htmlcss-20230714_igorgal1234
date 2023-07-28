@@ -1,0 +1,5 @@
+.header {
+  background-color: var(--white);
+  padding: 96px 0 77px;
+  border-bottom: 1px solid var(--gray-2);
+}
