@@ -1,4 +1,10 @@
 .preview {
-  height: 500px;
   background-color: #f9fafc;
+}
+
+.preview__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 67px 0 204px;
 }

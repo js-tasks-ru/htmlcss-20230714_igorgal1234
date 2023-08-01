@@ -1,0 +1,25 @@
+.preview-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  min-height: 367px;
+  padding: 30px 24px 30px 26px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--white);
+}
+
+.preview-card__content {
+  flex-grow: 1;
+  padding-bottom: 10px;
+}
+
+.preview-card__title {
+  color: var(--black, #212429);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

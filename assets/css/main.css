@@ -6,6 +6,7 @@
 @import '../../components/header/header.css';
 @import '../../components/page/page.css';
 @import '../../components/preview/preview.css';
+@import '../../components/preview-card/preview-card.css';
 
 :root {
   --white: #ffffff;
@@ -30,9 +31,14 @@
   font-family: 'Inter', sans-serif;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: var(--black);
+  height: 100vh;
 }
