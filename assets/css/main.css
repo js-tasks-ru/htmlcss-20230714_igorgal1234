@@ -1,9 +1,12 @@
 @import '../fonts/fonts.css';
 @import './reset.css';
 @import './typography.css';
+@import '../../components/component/component.css';
 @import '../../components/container/container.css';
 @import '../../components/footer/footer.css';
 @import '../../components/header/header.css';
+@import '../../components/main/main.css';
+@import '../../components/menu/menu.css';
 @import '../../components/page/page.css';
 @import '../../components/preview/preview.css';
 @import '../../components/preview-card/preview-card.css';
@@ -16,16 +19,19 @@
   --blue: #4263eb;
   --blue2: #4263eb;
   --red: #f03d3e;
+  --red2: #d84910;
   --grey-1: #f8f9fa;
   --grey-2: #dde2e5;
   --grey-3: #acb5bd;
   --grey-4: #495057;
+  --grey-5: #f9fafc;
 
   --error: var(--red);
   --success: var(--blue);
 
   --primary: var(--blue);
   --secondary: var(--purple);
+  --notificaiton: var(--red2);
 
   --histogram: var(--blue2);
 }
