@@ -7,15 +7,3 @@
 .page__main {
   flex-grow: 1;
 }
-
-.page_inner {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  background-color: var(--grey-5);
-}
-
-.page__content-wrapper_inner {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 56px;
-}

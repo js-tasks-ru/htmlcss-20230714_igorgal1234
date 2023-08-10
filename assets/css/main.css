@@ -4,10 +4,13 @@
 @import '../../components/component/component.css';
 @import '../../components/container/container.css';
 @import '../../components/footer/footer.css';
+@import '../../components/footer-inner/footer-inner.css';
 @import '../../components/header/header.css';
+@import '../../components/header-inner/header-inner.css';
 @import '../../components/main/main.css';
 @import '../../components/menu/menu.css';
 @import '../../components/page/page.css';
+@import '../../components/page-inner/page-inner.css';
 @import '../../components/preview/preview.css';
 @import '../../components/preview-card/preview-card.css';
 
