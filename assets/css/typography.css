@@ -21,10 +21,14 @@
   line-height: 26px; /* 130% */
 }
 
-.paragraph {
+.text {
+  color: var(--black);
   font-family: Inter;
-  font-size: 16px;
   font-style: normal;
   font-weight: 400;
+}
+
+.text_m {
+  font-size: 16px;
   line-height: 24px; /* 150% */
 }
