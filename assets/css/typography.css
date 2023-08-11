@@ -15,6 +15,12 @@
   line-height: 64px; /* 128% */
 }
 
+.title_s {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+}
+
 .text {
   color: var(--black);
   font-family: Inter;
