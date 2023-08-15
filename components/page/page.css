@@ -14,6 +14,12 @@
   background-color: var(--grey-5);
 }
 
+.page_inner .page__main {
+  @media (max-width: 1023px) {
+    background-color: var(--white);
+  }
+}
+
 .page_inner .page__content-wrapper {
   display: grid;
   grid-template-columns: auto 1fr;

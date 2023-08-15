@@ -1,9 +1,21 @@
 .header {
-  padding: 96px 0 77px;
-  border-bottom: 1px solid var(--gray-2);
+  padding: 96px 0 69px;
+  border-bottom: 1px solid var(--grey-2);
+
+  @media (min-width: 1024px) {
+    padding-bottom: 77px;
+  }
 }
 
 .header_inner {
-  padding: 24px 0 60px;
   border: none;
+  padding: 17px 0;
+
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 24px 0 60px;
+  }
 }
