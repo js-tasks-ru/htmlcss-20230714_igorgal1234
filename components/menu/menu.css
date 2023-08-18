@@ -1,10 +1,5 @@
 .menu {
   display: none;
-  width: 229px;
-
-  @media (min-width: 1024px) {
-    display: block;
-  }
 }
 
 .menu__section {
@@ -22,4 +17,11 @@
 
 .menu__link:hover {
   color: var(--notificaiton);
+}
+
+@media (min-width: 1024px) {
+  .menu {
+    display: block;
+    width: 229px;
+  }
 }
