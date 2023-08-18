@@ -14,6 +14,8 @@
 @import '../../components/preview/preview.css';
 @import '../../components/preview-card/preview-card.css';
 
+@import '../../03-lection1/01-button/button.css';
+
 :root {
   --white: #ffffff;
   --black: #212429;
