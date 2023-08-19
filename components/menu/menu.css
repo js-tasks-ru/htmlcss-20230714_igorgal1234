@@ -1,5 +1,5 @@
 .menu {
-  width: 229px;
+  display: none;
 }
 
 .menu__section {
@@ -17,4 +17,11 @@
 
 .menu__link:hover {
   color: var(--notificaiton);
+}
+
+@media (min-width: 1024px) {
+  .menu {
+    display: block;
+    width: 229px;
+  }
 }

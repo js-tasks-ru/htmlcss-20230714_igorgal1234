@@ -19,3 +19,9 @@
   grid-template-columns: auto 1fr;
   column-gap: 56px;
 }
+
+@media (max-width: 1023px) {
+  .page_inner .page__main {
+    background-color: var(--white);
+  }
+}
