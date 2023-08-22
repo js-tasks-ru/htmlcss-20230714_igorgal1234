@@ -1,0 +1,29 @@
+.logo {
+  display: flex;
+  column-gap: 8px;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    justify-content: center;
+  }
+}
+
+.logo__square {
+  width: 30px;
+  height: 30px;
+  background-color: var(--black);
+}
+
+.logo__circle {
+  width: 32px;
+  height: 32px;
+  background-color: var(--black);
+  border-radius: 50%;
+}
+
+.logo__triangle {
+  border: 16px solid var(--black);
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
