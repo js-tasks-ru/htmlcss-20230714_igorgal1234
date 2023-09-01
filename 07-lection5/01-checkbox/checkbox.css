@@ -18,17 +18,21 @@
 }
 
 .checkbox__controll {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 28px;
   height: 28px;
   border: 1px solid var(--grey-2);
   border-radius: 4px;
+  position: relative;
 }
 
 .checkbox__check-mark {
   display: none;
+  width: 15px;
+  height: 13px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .checkbox__title {
