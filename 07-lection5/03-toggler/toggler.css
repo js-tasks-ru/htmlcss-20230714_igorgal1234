@@ -1,6 +1,7 @@
 .toggler {
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 
 .toggler__input {
@@ -21,6 +22,8 @@
   height: 28px;
   border: 1px solid var(--grey-2);
   border-radius: 16px;
+  background-color: var(--white);
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .toggler__controll::before {
@@ -32,6 +35,8 @@
   background-color: var(--grey-2);
   margin-top: 1px;
   transform: translateX(1px);
+  will-change: transform;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .toggler__title {
