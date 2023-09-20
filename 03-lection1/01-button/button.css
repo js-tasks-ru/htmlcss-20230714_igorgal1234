@@ -8,8 +8,13 @@
   font-size: 16px;
   font-weight: 500;
   font-family: Roboto;
-  transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out,
+  will-change: transform;
+  transition: transform 100ms ease-in-out, background-color 200ms ease-in-out,
     border-color 200ms ease-in-out;
+}
+
+.button:active {
+  transform: translateY(2px);
 }
 
 .button:disabled,
