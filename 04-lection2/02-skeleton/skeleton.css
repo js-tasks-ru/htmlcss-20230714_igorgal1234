@@ -26,14 +26,30 @@
 .skeleton__strip {
   height: 20px;
   margin-top: 8px;
+}
+
+.skeleton__avatar,
+.skeleton__strip {
   background: linear-gradient(
-    163deg,
-    #dde2e5 0%,
-    #e2e6e8 33.33%,
-    #f3f5f5 52.08%,
-    #e3e7ea 73.96%,
-    #dde2e5 100%
+    93deg,
+    #dde2e5 6.44%,
+    #e2e6e8 38.47%,
+    #f3f5f5 56.48%,
+    #e3e7ea 77.5%,
+    #dde2e5 102.52%
   );
+  background-size: 200%;
+  animation: bg-move 1.5s linear infinite forwards;
+}
+
+@keyframes bg-move {
+  0% {
+    background-position-x: 0%;
+  }
+
+  100% {
+    background-position-x: -200%;
+  }
 }
 
 .skeleton__strip_size_s {
