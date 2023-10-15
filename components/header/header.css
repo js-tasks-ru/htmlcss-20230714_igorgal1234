@@ -1,9 +1,4 @@
-.header {
-  border-bottom: 1px solid var(--grey-2);
-}
-
 .header_inner {
-  border: none;
   text-align: center;
   padding-bottom: 17px;
 }

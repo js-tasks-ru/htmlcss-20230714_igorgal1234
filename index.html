@@ -20,31 +20,109 @@
         </div>
       </header>
       <main class="preview page__main">
-        <div class="container">
-          <div class="preview__cards">
-            <div class="preview-card">
-              <div class="preview-card__content"></div>
-              <div class="preview-card__title">Tooltip</div>
+        <div class="tabs">
+          <input
+            class="tabs__input tabs__input_all"
+            type="radio"
+            id="#all-tab"
+            name="tabs"
+            checked
+          />
+          <input
+            class="tabs__input tabs__input_complex"
+            type="radio"
+            id="#complex-tab"
+            name="tabs"
+          />
+          <input
+            class="tabs__input tabs__input_simple"
+            type="radio"
+            id="#simple-tab"
+            name="tabs"
+          />
+
+          <div class="tabs__labels">
+            <div class="container tabs__container">
+              <div class="tabs__scroller">
+                <label class="tabs__label tabs__label_all" for="#all-tab"
+                  >All components</label
+                >
+                <label
+                  class="tabs__label tabs__label_complex"
+                  for="#complex-tab"
+                  >Complex</label
+                >
+                <label class="tabs__label tabs__label_simple" for="#simple-tab"
+                  >Simple</label
+                >
+              </div>
             </div>
-            <div class="preview-card">
-              <div class="preview-card__content"></div>
-              <div class="preview-card__title">Custom form elements</div>
+          </div>
+
+          <div class="tabs__content tabs__content_all">
+            <div class="container">
+              <div class="preview__cards">
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Tooltip</div>
+                </div>
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Custom form elements</div>
+                </div>
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Calendar</div>
+                </div>
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Modal dialog</div>
+                </div>
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Histogram</div>
+                </div>
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Avatar</div>
+                </div>
+              </div>
             </div>
-            <div class="preview-card">
-              <div class="preview-card__content"></div>
-              <div class="preview-card__title">Calendar</div>
+          </div>
+          <div class="tabs__content tabs__content_complex">
+            <div class="container">
+              <div class="preview__cards">
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Calendar</div>
+                </div>
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Modal dialog</div>
+                </div>
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Histogram</div>
+                </div>
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Avatar</div>
+                </div>
+              </div>
             </div>
-            <div class="preview-card">
-              <div class="preview-card__content"></div>
-              <div class="preview-card__title">Modal dialog</div>
-            </div>
-            <div class="preview-card">
-              <div class="preview-card__content"></div>
-              <div class="preview-card__title">Histogram</div>
-            </div>
-            <div class="preview-card">
-              <div class="preview-card__content"></div>
-              <div class="preview-card__title">Avatar</div>
+          </div>
+          <div class="tabs__content tabs__content_simple">
+            <div class="container">
+              <div class="preview__cards">
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Tooltip</div>
+                </div>
+                <div class="preview-card">
+                  <div class="preview-card__content"></div>
+                  <div class="preview-card__title">Custom form elements</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
