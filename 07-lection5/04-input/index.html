@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./input.css" />
+  </head>
+  <body>
+    <div class="input">
+      <label class="input__label" for="exaple">Label</label>
+      <div class="input__wrapper">
+        <input
+          class="input__field"
+          type="text"
+          id="exaple"
+          placeholder="Placeholder"
+        />
+        <svg class="input__icon input__icon_success">
+          <use href="/assets/images/icons-sprite.svg#input-success" />
+        </svg>
+        <svg class="input__icon input__icon_invalid">
+          <use href="/assets/images/icons-sprite.svg#input-invalid" />
+        </svg>
+      </div>
+    </div>
+  </body>
 </html>
