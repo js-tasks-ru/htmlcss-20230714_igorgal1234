@@ -1,0 +1,13 @@
+.theme-switcher__icon {
+  width: 24px;
+  height: 24px;
+  transition: color 0.3s ease-in-out;
+}
+
+.theme-switcher__icon_sun {
+  color: var(--sun);
+}
+
+.theme-switcher__icon_moon {
+  color: var(--moon);
+}

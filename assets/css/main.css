@@ -11,8 +11,10 @@
 @import '../../components/preview/preview.css';
 @import '../../components/preview-card/preview-card.css';
 @import '../../components/tabs/tabs.css';
+@import '../../components/theme-switcher/theme-switcher.css';
 
 @import '../../03-lection1/01-button/button.css';
+@import '../../07-lection5/03-toggler/toggler.css';
 
 :root {
   --white: #ffffff;
@@ -39,6 +41,16 @@
   --notificaiton: var(--red2);
 
   --histogram: var(--blue);
+
+  --tabs-content: var(--grey-5);
+  --sun: var(--black);
+  --moon: var(--grey-3);
+}
+
+html[data-theme-dark] {
+  --tabs-content: var(--grey-4);
+  --sun: var(--grey-3);
+  --moon: var(--black);
 }
 
 html {

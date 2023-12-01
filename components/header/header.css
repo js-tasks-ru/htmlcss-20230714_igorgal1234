@@ -1,22 +1,24 @@
-.header_inner {
-  text-align: center;
-  padding-bottom: 17px;
-}
-
-@media (min-width: 768px) {
-  .header_inner {
-    text-align: left;
-    padding-bottom: 60px;
-  }
-}
-
-.header__logo {
+.header__top-line {
+  display: flex;
+  justify-content: space-between;
   margin-top: 17px;
 }
 
 @media (min-width: 768px) {
-  .header__logo {
+  .header__top-line {
     margin-top: 24px;
+  }
+}
+
+.header__top-line_inner {
+  justify-content: center;
+  padding-bottom: 17px;
+}
+
+@media (min-width: 768px) {
+  .header__top-line_inner {
+    justify-content: flex-start;
+    padding-bottom: 60px;
   }
 }
 

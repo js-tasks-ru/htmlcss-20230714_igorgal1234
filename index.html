@@ -4,15 +4,40 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <script defer src="./assets/js/theme-changer.js"></script>
   </head>
   <body>
     <div class="page">
       <header class="header">
         <div class="container">
-          <div class="header__logo logo">
-            <div class="logo__square"></div>
-            <div class="logo__circle"></div>
-            <div class="logo__triangle"></div>
+          <div class="header__top-line">
+            <div class="header__logo logo">
+              <div class="logo__square"></div>
+              <div class="logo__circle"></div>
+              <div class="logo__triangle"></div>
+            </div>
+            <div>
+              <div class="theme-switcher">
+                <label class="toggler">
+                  <input
+                    id="theme-changer"
+                    class="toggler__input"
+                    type="checkbox"
+                    name="JavaScript"
+                    value="JavaScript"
+                  />
+                  <div class="toggler__appearence">
+                    <svg class="theme-switcher__icon theme-switcher__icon_sun">
+                      <use href="/assets/images/icons-sprite.svg#sun" />
+                    </svg>
+                    <div class="toggler__controll"></div>
+                    <svg class="theme-switcher__icon theme-switcher__icon_moon">
+                      <use href="/assets/images/icons-sprite.svg#moon" />
+                    </svg>
+                  </div>
+                </label>
+              </div>
+            </div>
           </div>
           <h1 class="header__title title title_xl">
             Reusable component library
