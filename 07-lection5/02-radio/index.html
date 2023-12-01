@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <!-- Страница радио -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./radio.css">
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./radio.css" />
+  </head>
+  <body>
+    <label class="radio">
+      <input
+        class="radio__input"
+        type="radio"
+        name="language"
+        value="JavaScript"
+      />
+      <div class="radio__appearance">
+        <div class="radio__controll"></div>
+        <div class="radio__title">JavaScript</div>
+      </div>
+    </label>
+    <label class="radio">
+      <input class="radio__input" type="radio" name="language" value="PHP" />
+      <div class="radio__appearance">
+        <div class="radio__controll"></div>
+        <div class="radio__title">PHP</div>
+      </div>
+    </label>
+    <label class="radio">
+      <input
+        class="radio__input"
+        type="radio"
+        name="language"
+        value="Pascal"
+        disabled
+      />
+      <div class="radio__appearance">
+        <div class="radio__controll"></div>
+        <div class="radio__title">Pascal</div>
+      </div>
+    </label>
+  </body>
 </html>
