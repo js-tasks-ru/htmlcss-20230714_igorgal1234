@@ -71,3 +71,17 @@
   background-color: var(--grey-3);
   opacity: 0.25;
 }
+
+.toggler__icon {
+  width: 24px;
+  height: 24px;
+  transition: color 0.3s ease-in-out;
+}
+
+.toggler__icon_sun {
+  color: var(--sun);
+}
+
+.toggler__icon_moon {
+  color: var(--moon);
+}

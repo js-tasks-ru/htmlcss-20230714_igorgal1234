@@ -1,6 +1,10 @@
 @import '../fonts/fonts.css';
 @import './reset.css';
 @import './typography.css';
+
+@import '../../03-lection1/01-button/button.css';
+@import '../../07-lection5/03-toggler/toggler.css';
+
 @import '../../components/component/component.css';
 @import '../../components/container/container.css';
 @import '../../components/footer/footer.css';
@@ -11,10 +15,6 @@
 @import '../../components/preview/preview.css';
 @import '../../components/preview-card/preview-card.css';
 @import '../../components/tabs/tabs.css';
-@import '../../components/theme-switcher/theme-switcher.css';
-
-@import '../../03-lection1/01-button/button.css';
-@import '../../07-lection5/03-toggler/toggler.css';
 
 :root {
   --white: #ffffff;
