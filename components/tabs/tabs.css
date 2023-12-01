@@ -1,0 +1,78 @@
+.tabs {
+  position: relative;
+  padding-top: 32px;
+  background-color: var(--white);
+}
+
+.tabs__input {
+  width: 0;
+  height: 0;
+  position: absolute;
+  transform: translateX(-100vw);
+}
+
+.tabs__labels {
+  border-bottom: 1px solid var(--grey-2);
+}
+
+.tabs__container {
+  padding-right: 0;
+}
+
+.tabs__scroller {
+  display: flex;
+  gap: 24px;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tabs__scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs__label {
+  color: var(--grey-3);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+  padding-bottom: 8px;
+  border-bottom: 5px solid transparent;
+  white-space: nowrap;
+}
+
+.tabs__label:hover {
+  border-bottom-color: var(--black);
+  color: var(--black);
+}
+
+.tabs__content {
+  display: none;
+  background-color: var(--grey-5);
+}
+
+.tabs__input_all:checked ~ .tabs__content_all,
+.tabs__input_complex:checked ~ .tabs__content_complex,
+.tabs__input_simple:checked ~ .tabs__content_simple {
+  display: block;
+}
+
+.tabs__input_all:checked ~ .tabs__labels .tabs__label_all,
+.tabs__input_complex:checked ~ .tabs__labels .tabs__label_complex,
+.tabs__input_simple:checked ~ .tabs__labels .tabs__label_simple {
+  border-bottom-color: var(--black);
+  color: var(--black);
+}
+
+@media (min-width: 1024px) {
+  .tabs {
+    padding-top: 40px;
+  }
+
+  .tabs__scroller {
+    gap: 40px;
+  }
+}

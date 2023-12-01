@@ -41,6 +41,19 @@
   gap: 1px;
   margin-top: 39px;
   height: 50px;
+  transform-origin: bottom center;
+  will-change: transform;
+  animation: grow 0.5s ease-in-out forwards;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
 }
 
 .histogram__column {
