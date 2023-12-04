@@ -3,12 +3,6 @@
   column-gap: 8px;
 }
 
-@media (max-width: 767px) {
-  .logo {
-    justify-content: center;
-  }
-}
-
 .logo__square {
   width: 30px;
   height: 30px;

@@ -23,9 +23,19 @@
   line-height: 24px;
 }
 
+.preview-card__sub-title {
+  color: var(--grey-3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
 @media (max-width: 767px) {
   .preview-card__title {
-    padding: 12px 0 10px;
+    padding-top: 12px;
     border-top: 1px solid var(--grey-2);
   }
 }
@@ -41,6 +51,14 @@
     font-family: Roboto;
     font-size: 21px;
     font-weight: 500;
+    line-height: normal;
+    margin-bottom: 6px;
+  }
+
+  .preview-card__sub-title {
+    color: var(--black);
+    font-family: Roboto;
+    font-size: 16px;
     line-height: normal;
   }
 }
